@@ -1,6 +1,14 @@
 ta-lib for Debian
 -----------------
 
-<possible notes regarding this package - if none, delete this file>
+Build the Debian binary packages from the tags/release-0-4-0/ta-lib/c
+directory. Make sure that you prepare auto-configure and
+auto-make. After cloning from Git, type:
+
+	sh autogen.sh
+	dpkg-buildpackage -b
+
+The *.deb packages for ta-lib and ta-lib-dev will appear in
+tags/release-0-4-0/ta-lib, the parent directory.
 
  -- Roy Ratcliffe <roy@pioneeringsoftware.co.uk>  Fri, 24 Aug 2012 08:06:38 +0100
