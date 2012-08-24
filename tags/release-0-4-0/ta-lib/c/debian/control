@@ -1,0 +1,25 @@
+Source: ta-lib
+Priority: extra
+Maintainer: Roy Ratcliffe <roy@pioneeringsoftware.co.uk>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev
+Standards-Version: 3.9.2
+Section: libs
+Homepage: http://www.ta-lib.org/
+#Vcs-Git: git://git.debian.org/collab-maint/ta-lib.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/ta-lib.git;a=summary
+
+Package: ta-lib-dev
+Section: libdevel
+Architecture: any
+Depends: ta-lib (= ${binary:Version})
+Description: Technical Analysis Library
+ TA-Lib is widely used by trading software developers requiring to perform
+ technical analysis of financial market data.
+
+Package: ta-lib
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Technical Analysis Library
+ TA-Lib is widely used by trading software developers requiring to perform
+ technical analysis of financial market data.
