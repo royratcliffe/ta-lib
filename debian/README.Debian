@@ -6,7 +6,7 @@ directory. Make sure that you prepare auto-configure and
 auto-make. After cloning from Git, type:
 
 	sh autogen.sh
-	dpkg-buildpackage -b
+	dpkg-buildpackage -I.\*
 
 The *.deb packages for ta-lib and ta-lib-dev will appear in
 the parent directory.
