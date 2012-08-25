@@ -2,3 +2,5 @@
 *.la
 *.lo
 *.o
+tools/gen_code/gen_code
+tools/ta_regtest/ta_regtest

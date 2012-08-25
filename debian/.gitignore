@@ -1,1 +1,8 @@
 tmp/
+ta-lib/
+ta-lib-dev/
+files
+*.debhelper.log
+*.substvars
+*.postinst.debhelper
+*.postrm.debhelper
