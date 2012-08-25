@@ -1,0 +1,10 @@
+Makefile
+Makefile.in
+aclocal.m4
+bin/gen_code
+compile
+config.guess
+config.log
+config.status
+config.sub
+configure
